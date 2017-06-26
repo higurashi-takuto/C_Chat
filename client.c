@@ -23,7 +23,7 @@ int main(int argc,char *argv[]){
 	-d  デバックモード
 		例) ./a.out -d
 	-i  IPアドレス指定
-		例) ./a.out -i 172.28.34.104
+		例) ./a.out -i XXX.XXX.XXX.XXX
 	*/
 	int opt, debug_flag = 0;
 	char ip[20] = "XXX.XXX.XXX.XXX";
